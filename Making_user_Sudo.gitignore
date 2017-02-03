@@ -1,1 +1,14 @@
-Do this work !!
+Granting the sudo permission to Non-sudo users
+----------------------------------------------
+
+Step 1: In the terminal open type:
+         $ sudo visudo
+
+Step 2: At the end of type:
+         username ALL=(ALL) ALL 
+         
+Step 3: Ctrl+O to save the file 
+
+Step 4: Done !! 
+
+Note:  Whenever you want to remove the user from sudo follow step 1 and remove the added line (shown in step 2) associated to that non-sudo user
