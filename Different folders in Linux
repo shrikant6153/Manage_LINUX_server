@@ -1,0 +1,15 @@
+Lets Check out different folders in Linux
+
+/bin : 
+These binaries usable before the /usr partition is mounted. This is used for trivial binaries used in the very early boot stage or ones that you need to have available in booting single-user mode. Think of binaries like cat, ls,bash,kill,tar,pwd,touch,chmod,chown,ping,mount,ps etc.
+Contains commands that may be used by both the system administrator and by users, but which are required when no other filesystems are mounted (e.g. in single user mode). It may also contain commands which are used indirectly by scripts
+/bin contains all the commands that you will need if you only have / mounted.
+
+/usr/bin:
+Application/distribution binaries meant to be accessed by locally logged in users (i.e these are general system-wide binaries example: gedit,gcc,apt,dpkg,rdesktop,python,scp,etc)
+This is the primary directory of executable commands on the system.
+
+/sbin :
+Binaries needed for booting, low-level system repair, or maintenance. (superuser (root) privileges required)
+
+
