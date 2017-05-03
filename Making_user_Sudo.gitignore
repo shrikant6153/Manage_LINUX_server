@@ -4,10 +4,10 @@ Granting the sudo permission to Non-sudo users
 Step 1: In the terminal open type:
          $ sudo visudo
 
-Step 2: At the end of type:
+Step 2: At the end of file:
          username ALL=(ALL) ALL 
          
-Step 3: Ctrl+O to save the file 
+Step 3: Ctrl+o to save the file 
 
 Step 4: Done !! 
 
